@@ -4,7 +4,7 @@ A modern, responsive event discovery and registration website for the Department
 
 ## Website Preview
 
-![College Event Registration Website](screenshots/homepage.png)
+![[College Event Registration Website](https://sayantani-aiml.github.io/college-event-registration/)](screenshots/homepage.png)
 
 ## About the Project
 
