@@ -1,96 +1,93 @@
-# College Event Registration Website
+# 🎓 College Event Registration Website
 
-A modern, responsive event discovery and registration website for the Department of Computer Science & Engineering (AI & ML), Institute of Engineering & Management.
+A responsive, interactive website designed to showcase college events and provide students with a simple event registration experience.
 
-## Website Preview
+**Developed as an academic mini-project** for the Department of Computer Science & Engineering (AI & ML), Institute of Engineering & Management (IEM).
 
-![[College Event Registration Website](https://sayantani-aiml.github.io/college-event-registration/)](screenshots/homepage.png)
+---
 
-## About the Project
+## 🌐 Live Website
 
-The College Event Registration Website is an academic mini-project developed to provide an engaging digital platform for showcasing departmental events and facilitating student registrations.
+[View Live Website](https://sayantani-aiml.github.io/college-event-registration/)
 
-Designed with an editorial-inspired visual identity, the website combines a dark navy aesthetic with warm orange accents, modern typography, and interactive elements to create an engaging browsing experience.
+## 📌 About the Project
 
-## Features
+The College Event Registration Website brings college events together in one place. Students can explore upcoming events, browse past event highlights, view event details, and interact with a registration form.
 
-- **Event Timeline:** Dynamically displays upcoming events using JavaScript.
-- **Category Filtering:** Filter events based on their categories.
-- **Live IST Clock:** Displays the current Indian Standard Time.
-- **Event Countdown:** Countdown functionality for featured events.
-- **Registration Form:** Interactive registration form with input validation.
-- **Success Feedback:** Displays a confirmation message after successful form submission.
-- **Event Archive:** Visual gallery showcasing event-related content.
-- **Dark/Light Theme:** Theme switching with preferences saved using localStorage.
-- **Responsive Navigation:** Navigation designed for different screen sizes.
-- **Scroll Animations:** Animated elements triggered while scrolling.
-- **Editorial Design:** Custom typography, layouts, subtle animations, and interactive buttons.
+The project focuses on creating a clean, accessible, and engaging frontend experience using fundamental web technologies.
 
-## Tech Stack
+## ✨ Features
+
+- **Event Showcase:** Explore upcoming college events.
+- **Event Categories:** Browse events by category.
+- **Event Countdown:** View countdowns for upcoming events.
+- **Live IST Clock:** Display the current Indian Standard Time.
+- **Registration Form:** Interactive form with input validation and submission feedback.
+- **Event Archive:** Browse highlights from previous events.
+- **Theme Toggle:** Switch between light and dark themes.
+- **Responsive Design:** Designed to work across desktop and mobile screens.
+- **Interactive Elements:** Smooth navigation and scroll-based animations.
+
+## 🛠️ Tech Stack
 
 | Technology | Purpose |
 |---|---|
 | HTML5 | Website structure |
-| CSS3 | Styling, layouts and responsive design |
+| CSS3 | Styling, layouts and responsiveness |
 | JavaScript | Interactivity and dynamic functionality |
-| LocalStorage | Saving theme preferences |
+| Local Storage | Saving browser-side preferences |
 
-## Project Structure
+## 📁 Project Structure
 
 ```text
 college-event-registration/
 │
 ├── images/
-│   └── Website image assets
+│   └── ...             # Website images and visual assets
 │
-├── index.html
-├── style.css
-├── script.js
-└── README.md
+├── index.html          # Main webpage
+├── style.css           # Stylesheet
+├── script.js           # JavaScript functionality
+└── README.md           # Project documentation
 ```
 
-## Getting Started
-
-### Run Locally
+## 🚀 Run Locally
 
 1. Clone the repository:
 
    ```bash
-   git clone YOUR_REPOSITORY_URL
+   git clone https://github.com/sayantani-aiml/college-event-registration.git
    ```
 
-2. Navigate to the project directory:
+2. Open the project folder.
 
-   ```bash
-   cd college-event-registration
-   ```
-
-3. Open `index.html` in your web browser.
+3. Open `index.html` in your browser.
 
 No additional dependencies are required.
 
-## Current Limitations
+## ⚠️ Current Limitations
 
-- Registration submissions are currently handled on the frontend.
-- Registration details are not stored in a backend database.
-- No administrative dashboard or server-side registration management is implemented.
+- This is a frontend-only academic project.
+- Registration submissions are not stored in a backend database.
+- There is currently no administrative dashboard for managing registrations.
 
-## Future Enhancements
+## 🔮 Future Improvements
 
 - Backend integration for registration management.
-- Database connectivity for storing participant details.
+- Database connectivity for storing student details.
 - Admin dashboard for managing events and registrations.
-- Email-based registration confirmations.
-- Live event management and participant tracking.
+- Email confirmation after successful registration.
 
-## Project Information
+## 👩‍💻 Project Information
 
-- **Project Type:** Academic Mini Project
-- **Domain:** Frontend Web Development
-- **Department:** CSE (AI & ML)
-- **Institution:** Institute of Engineering & Management
-- **Developer:** Sayantani Das
+| Detail | Information |
+|---|---|
+| Project Type | Academic Mini-Project |
+| Department | CSE (AI & ML) |
+| Institution | Institute of Engineering & Management |
+| Developer | Sayantani Das |
+| Technologies | HTML, CSS, JavaScript |
 
 ---
 
-*Built as an academic project to explore frontend development, interactive web design, and practical JavaScript applications.*
+*Built as a learning project to explore frontend development, responsive design, and JavaScript-based interactivity.*
